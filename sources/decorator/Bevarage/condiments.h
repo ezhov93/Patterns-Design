@@ -8,8 +8,6 @@ public:
     Mocha(Bevarage &bevarage);
     virtual std::string description() final;
     virtual double cost() final;
-private:
-    Bevarage *bevarage;
 };
 
 class Whip: public CondimentDecorator {
@@ -17,8 +15,6 @@ public:
     Whip(Bevarage &bevarage);
     virtual std::string description() final;
     virtual double cost() final;
-private:
-    Bevarage *bevarage;
 };
 
 

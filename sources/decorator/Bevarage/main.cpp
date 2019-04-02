@@ -11,6 +11,7 @@ int main()
     std::cout<<bevarage->description()<<" $"<<bevarage->cost()<<std::endl;
 
     Bevarage *bevarage2 =new HouseBlend;
+    bevarage2->setSize(Bevarage::TALL);
     bevarage2 = new Mocha(*bevarage2);
     bevarage2 = new Mocha(*bevarage2);
     bevarage2 = new Whip(*bevarage2);
